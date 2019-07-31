@@ -20,7 +20,7 @@ let section = document.querySelector("section");
 function acessar(){
     localStorage.setItem('nome',caixaTexto.value);
     div.style.display = "none";
-    texto.innerHTML = `S E J A  B E M  V I N D O ${localStorage.nome}`;
+    texto.innerHTML = `S E J A    B E M    V I N D O ${localStorage.nome}`;
     EVoce.innerHTML= `É Você ${localStorage.nome}??`;
     EVoce.onclick = limpar;
 }
